@@ -10,9 +10,21 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: #43c6ac; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #191654,
+    #43c6ac
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #191654,
+    #43c6ac
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container-item {
+  border-collapse: collapse;
   margin: 5px;
 }
 
@@ -20,7 +32,6 @@
   top: 50%;
   height: 60px;
   width: 60px;
-  /* background-color: red; */
   text-align: center;
   border: 1px solid black;
 }
@@ -29,9 +40,12 @@
   height: 100%;
   width: 100%;
   display: flex;
+  border: 1px solid black;
   justify-content: center;
   align-items: center;
   font-size: 24px;
+  color: chartreuse;
+  font-weight: 800;
 }
 
 .reset {
@@ -42,7 +56,7 @@
   font-weight: 700;
 }
 
-.reset:hover{
+.reset:hover {
   cursor: pointer;
 }
 
@@ -62,4 +76,3 @@
 .show {
   visibility: visible;
 }
-
