@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Table</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <a href="../index.html" class="back-button">Back to Main Page</a>
+    <div id="container">
+      <div id="nameDiv" class="input">
+        Name: <input type="text" id="name" placeholder="Enter Your Full Name" />
+      </div>
+      <div id="ageDiv" class="input">
+        Age: <input type="Number" id="age" placeholder="Enter Your Age" />
+      </div>
+      <div id="gradeDiv" class="input">
+        Grade: <input type="text" id="grade" placeholder="Enter Your Grade" />
+      </div>
+      <button id="entry">Input Entry</button>
+    </div>
+
+    <div class="input">
+      Search <input type="text" id="search" />
+      <select name="grade" id="gradeOptions">
+        <option value="any">All</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+      </select>
+    </div>
+
+    <table id="display">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="./script.js"></script>
+  </body>
+</html>
