@@ -35,6 +35,7 @@ nav ul li a:hover {
   color: #666;
 }
 .back-button {
+  text-decoration: none;
   position: absolute;
   top: 20px;
   right: 20px;
