@@ -20,8 +20,14 @@ This repository contains basic JavaScript projects developed as part of learning
    - File: [03-display-data/index.html](03-display-data/index.html)
 
 4. **Hangman**
+
    - Description: A classic Hangman game implemented in JavaScript.
    - File: [04-hangman/index.html](04-hangman/index.html)
+
+5. **Password Generator**
+
+   - Description: A simple password generator application implemented in JavaScript. Allows users to generate passwords with customizable length and options for including numbers and special characters.
+   - File: [05-password-generator/index.html](05-password-generator/index.html)
 
 ## Usage
 

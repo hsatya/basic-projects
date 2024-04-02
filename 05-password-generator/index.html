@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <a href="../index.html" class="back-button">Project List</a>
+    <div
+      class="'w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-600 bg-gray-700'"
+    >
+      <h1 class="text-white text-center mb-2">Password Generator</h1>
+      <div class="flex shadow rounded-lg overflow-hidden mb-4">
+        <input
+          type="text"
+          class="outline-none w-full py-1 px-3"
+          placeholder="password"
+          id="pass"
+          readonly
+        />
+        <button
+          class="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0"
+          id="copyButton"
+        >
+          copy
+        </button>
+      </div>
+      <div class="flex text-sm gap-x-2">
+        <div class="flex items-center gap-x-1">
+          <input
+            type="range"
+            min="6"
+            max="30"
+            id="passLength"
+            class="cursor-pointer"
+          />
+          <label for="passLength">Length: <span id="length">8</span></label>
+        </div>
+        <div class="flex items-center gap-x-1">
+          <input type="checkbox" id="numAllowed" />
+          <label for="numAllowed">Numbers</label>
+          <input type="checkbox" id="charAllowed" />
+          <label for="charAllowed">Characters</label>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
