@@ -2,6 +2,10 @@
 
 This repository contains basic JavaScript projects developed as part of learning and practicing JavaScript.
 
+## Live at
+
+You can try the app live [here](https://hsatya.github.io/basic-projects/).
+
 ## Projects
 
 1. **Tic Tac Toe**
